@@ -1,10 +1,11 @@
 package com.example.comics.interactor
 
 import com.example.comics.CoroutinesTestRule
-import com.example.comics.presenter.IPresenter
-import com.example.comics.repository.DataModel
-import com.example.comics.repository.ItemModel
-import com.example.comics.repository.Repository
+import com.example.comics.vpi.presenter.IPresenter
+import com.example.comics.vpi.repository.DataModel
+import com.example.comics.vpi.repository.ItemModel
+import com.example.comics.vpi.repository.Repository
+import com.example.comics.vpi.interactor.Interactor
 import io.mockk.called
 import io.mockk.coEvery
 import io.mockk.coVerify

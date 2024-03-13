@@ -1,6 +1,6 @@
-package com.example.comics.repository
+package com.example.comics.data.source.remote.response
 
-data class ItemModel(
+data class ItemResponse(
     val data: DataModel
 )
 
